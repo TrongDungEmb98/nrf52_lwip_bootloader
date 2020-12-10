@@ -188,7 +188,7 @@ void gsm_hw_send_at_cmd(char *cmd, char *expect_response, uint16_t timeout_ms,
     DebugPrint("\r\r\n%s\r\n", cmd);
 }
 
-
+/* Lwip require user have to support this functino for porting */
 uint32_t sio_read(sio_fd_t fd, u8_t *data, u32_t len)
 {
     uint32_t i = 0;

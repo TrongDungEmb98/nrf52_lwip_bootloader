@@ -311,6 +311,7 @@ int main(void)
 }
 
 /**
+ * Lwip require user have to support this functino for porting
  * @brief Override LWIP weak function
  */
 uint32_t sys_now(void)
@@ -319,6 +320,7 @@ uint32_t sys_now(void)
 }
 
 /**
+ * Lwip require user have to support this functino for porting
  * @brief Override LWIP weak function
  */
 uint32_t sys_jiffies(void)
